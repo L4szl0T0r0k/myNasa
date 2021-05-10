@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nasa {
+  text-align: center;
+  background-color: yellow;
+  height: 90vh;
+  width: 50%;
+  margin: auto auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 0px black;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+p {
+  text-align: justify;
+  width: 50%;
+  margin: 0px 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+small {
+  margin: 0px 20px;
+  font-weight: 700;
+}
